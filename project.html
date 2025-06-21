@@ -77,33 +77,13 @@
       font-size: 15px;
     }
 
-    .footer-container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
-    .footer-column {
-      margin: 10px 0;
-    }
-
-    .footer-column a {
-      display: block;
+    footer a {
       color: #ffffff;
       text-decoration: none;
-      margin: 5px 0;
     }
 
-    .footer-column a:hover {
-      color: rgb(0, 0, 0);
-    }
-
-    .footer-bottom {
-      text-align: center;
-      color: #6e3f02;
-      margin-top: 20px;
-      font-size: 14px;
+    footer a:hover {
+      color: black;
     }
   </style>
 </head>
@@ -143,59 +123,46 @@
           <source src="portfolio-project.mp4" type="video/mp4">
         </video>
       </div>
-
-      <!-- Project 2 -->
-      <!-- <div class="project-card">
-        <div class="project-title">Project 2 Name</div>
-        <a href="https://github.com/yourusername/project2" class="github-link" target="_blank">🔗 Repository</a>
+      <!-- project 2 -->
+        <!-- <div class="project-card">
+        <div class="project-title">Portfolio Website</div>
+        <a href="https://github.com/shayan302-dev/Shayyan_Portfolio" class="github-link" target="_blank">🔗 Portfolio Website Personal Project</a>
         <video muted onmouseover="this.play()" onmouseout="this.pause(); this.currentTime=0;" onclick="window.open(this.currentSrc)">
-          <source src="videos/project2-demo.mp4" type="video/mp4">
-        </video>
-      </div> -->
-
-      <!-- Project 3 -->
-      <!-- <div class="project-card">
-        <div class="project-title">Project 3 Name</div>
-        <a href="https://github.com/yourusername/project3" class="github-link" target="_blank">🔗 Repository</a>
-        <video muted onmouseover="this.play()" onmouseout="this.pause(); this.currentTime=0;" onclick="window.open(this.currentSrc)">
-          <source src="videos/project3-demo.mp4" type="video/mp4">
-        </video>
-      </div> -->
-
-      <!-- Project 4 -->
-      <!-- <div class="project-card">
-        <div class="project-title">Project 4 Name</div>
-        <a href="https://github.com/yourusername/project4" class="github-link" target="_blank">🔗 Repository</a>
-        <video muted onmouseover="this.play()" onmouseout="this.pause(); this.currentTime=0;" onclick="window.open(this.currentSrc)">
-          <source src="videos/project4-demo.mp4" type="video/mp4">
+          <source src="portfolio-project.mp4" type="video/mp4">
         </video>
       </div> -->
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="mt-5">
     <div class="container">
-      <div class="footer-container">
-        <div class="footer-column">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 mb-3">
           <h5>Shayyan's Portfolio</h5>
         </div>
-        <div class="footer-column">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Me</a>
-          <a href="projects.html">Projects</a>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
         </div>
-        <div class="footer-column">
-          <a href="skills.html">Skills</a>
-          <a href="Resume_cv.html">Resume/Cv</a>
-          <a href="achievements.html">Achievements</a>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="Resume_cv.html">Resume/Cv</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+          </ul>
         </div>
-        <div class="footer-column">
-          <li><a href="Resources.html">Learning Resources</a></li>
-          <a href="contact.html">Contact</a>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="Resources.html">Learning Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div class="text-center mt-3 footer-bottom" style="color: #6e3f02;">
         &copy; 2025 www.shayanportfolio.com | All rights reserved
       </div>
     </div>
