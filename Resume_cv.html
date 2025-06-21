@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume & CV - Shayyan's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: rgb(251, 195, 98);
+      color: black;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background-color: rgb(246, 156, 0);
+    }
+
+    nav .navbar-brand,
+    nav .nav-link {
+      color: white;
+    }
+
+    nav .nav-link:hover {
+      color: black;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .resume-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .resume-section h2 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .resume-preview {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+
+    .resume-btn {
+      background-color: rgb(252, 162, 5);
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+
+    .resume-btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+    footer {
+      background-color: rgb(246, 156, 0);
+      padding: 40px 0;
+      color: white;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: white;
+    }
+
+    footer a:hover {
+      color: black;
+    }
+
+    .footer-rights {
+      text-align: center;
+      color: rgb(168, 91, 3);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shayyan's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Resume_cv.html">Resume/CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="Resources.html">Learning Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section class="resume-section">
+      <div class="container">
+        <h2>My Resume / CV</h2>
+        <p>Below is a preview of my resume. You can also download the PDF version.</p>
+
+        <div class="resume-preview">
+          <!-- Show your resume preview image -->
+          <img src="resume.jpg" alt="Resume Preview" class="img-fluid rounded shadow" />
+
+          <!-- Or embed a PDF directly -->
+          <!-- <iframe src="Muhammad Shayyan CV.pdf" width="100%" height="600px" style="border: none;"></iframe> -->
+        </div>
+
+        <a href="Resume.pdf" download>
+          <button class="resume-btn">Download Resume (PDF)</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 mb-3">
+          <h5>Shayyan's Portfolio</h5>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="resume.html">Resume/CV</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="Resources.html">Learning Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &copy; www.shayanportfolio.com | All rights reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
