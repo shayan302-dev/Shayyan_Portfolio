@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Shayan AI Chatbot</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      overflow-x: hidden;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff9ec;
+    }
+
+    nav {
+      background-color: rgb(246, 156, 0);
+    }
+
+    nav .navbar-brand {
+      font-size: 1.6rem;
+      color: white;
+    }
+
+    nav .nav-link {
+      color: white;
+    }
+
+    nav .nav-link:hover {
+      color: black;
+    }
+
+    .chat-container {
+      height: calc(100vh - 56px - 180px); /* minus navbar and footer */
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+
+    footer {
+      background-color: rgb(246, 156, 0);
+      padding: 40px 0 20px;
+      color: white;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: white;
+    }
+
+    footer a:hover {
+      color: black;
+    }
+
+    .footer-rights {
+      text-align: center;
+      color: rgb(168, 91, 3);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shayyan's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="Resume_cv.html">Resume/Cv</a></li>
+          <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="Resources.html">Learning Resources</a></li>
+          <li class="nav-item"><a class="nav-link active" href="chatbot.html">Chatbot</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CHATBOT SECTION -->
+  <div class="chat-container">
+    <iframe
+      src="https://shayan302-shayan-chatbot.hf.space"
+      allow="fullscreen"
+      loading="eager"
+    ></iframe>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 mb-3">
+          <h5>Shayyan's Portfolio</h5>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="project.html">Projects</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="Resume_cv.html">Resume/Cv</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <ul class="list-unstyled">
+            <li><a href="Resources.html">Learning Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="chatbot.html">Chatbot</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        &copy; 2025 www.shayanportfolio.com | All rights reserved
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
